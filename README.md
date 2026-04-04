@@ -1,4 +1,4 @@
-# Emerging Technologies - Emerging Techonologies Assessment
+# Emerging Technologies - Emerging Technologies Assessment
 
 **Author:** Shayanny  
 **Institution:** Atlantic Technological University - Year 4  
@@ -29,9 +29,39 @@ By placing input qubits in superposition, quantum algorithms can effectively eva
 
 ## Technologies Used
 
-- **Python 3.9+** - Programming language
-- **Qiskit 1.0+** - IBM's open-source quantum computing framework
-- **Qiskit Aer** - High-performance quantum circuit simulator
-- **Jupyter Notebook** - Interactive development and documentation environment
-- **Matplotlib** - Visualization of quantum circuits and measurement results
-- **NumPy** - Numerical computation support
+- **[Python 3.9+](https://www.python.org/)** - Programming language
+- **[Qiskit 1.0+](https://qiskit.org/)** - IBM's open-source quantum computing framework
+  - [Qiskit Documentation](https://docs.quantum.ibm.com/)
+- **[Qiskit Aer](https://qiskit.github.io/qiskit-aer/)** - High-performance quantum circuit simulator
+- **[Jupyter Notebook](https://jupyter.org/)** - Interactive development and documentation environment
+- **[Matplotlib](https://matplotlib.org/)** - Visualization of quantum circuits and measurement results
+- **[NumPy](https://numpy.org/)** - Numerical computation support
+
+## Installation
+
+To run this project locally:
+```bash
+# Clone the repository
+git clone https://github.com/Shayanny/Emerging-Tech.git
+cd Emerging-Tech
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+jupyter notebook problems.ipynb
+```
+
+## References
+
+### Educational Resources
+- [IBM Quantum Learning - Deutsch-Jozsa Algorithm](https://learning.quantum.ibm.com/course/fundamentals-of-quantum-algorithms/quantum-query-algorithms#the-deutsch-jozsa-algorithm)
+- [IBM Quantum Learning - Phase Kickback](https://learning.quantum.ibm.com/course/fundamentals-of-quantum-algorithms/phase-kickback-and-eigenvalues)
+
+### Academic Literature
+- Montanaro, A. (2016). "Quantum algorithms: an overview." *npj Quantum Information*, 2(1), 15023. [DOI](https://doi.org/10.1038/npjqi.2015.23)
+- Deutsch, D., & Jozsa, R. (1992). "Rapid solution of problems by quantum computation." *Proceedings of the Royal Society A*, 439(1907), 553-558.
+
+## License
+
+This project is submitted as part of academic coursework for Atlantic Technological University.
