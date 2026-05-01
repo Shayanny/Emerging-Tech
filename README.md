@@ -5,7 +5,31 @@
 **Module:** Emerging Technologies
 **May 2026**
 
-This repository contains my solutions to quantum computing problems using Qiskit, demonstrating fundamental quantum algorithms and their advantages over classical approaches.
+This repository contains my solutions to quantum computing problems using Qiskit, demonstrating fundamental quantum algorithms and their advantages over classical approaches. All work is my own except where explicitly referenced.
+
+## Repository Contents
+
+- `problems.ipynb` - Main assessment notebook with 5 problems covering Deutsch-Jozsa algorithm
+- `requirements.txt` - Python dependencies for the project
+- `README.md` - This file
+- `.gitignore` - Git ignore rules for Python projects
+
+## Usage
+
+Open the notebook in Jupyter:
+
+```bash
+jupyter notebook problems.ipynb
+```
+
+The notebook contains 5 problems:
+1. Generating random Boolean functions (constant and balanced)
+2. Classical testing strategies and query complexity analysis
+3. Quantum oracle construction for single-input functions
+4. Deutsch's Algorithm implementation and testing
+5. Deutsch-Jozsa Algorithm scaling to n-bit inputs
+
+**Before viewing**: All cells should be executed in order. If outputs are missing, select "Kernel" → "Restart & Run All" in Jupyter.
 
 ## Overview
 
@@ -66,6 +90,17 @@ jupyter notebook problems.ipynb
   Cambridge University Press. Chapter 1.4.4 discusses the Deutsch-Jozsa algorithm as a 
   foundational example of quantum computational advantage.
 
+
+## AI Tool Usage
+
+Throughout this project, I used Claude (Anthropic) as a research and learning assistant to help:
+- Understand complex quantum concepts like phase kickback
+- Debug code issues and understand error messages
+- Improve explanations and documentation clarity
+- Structure my thinking about the promise problem
+
+All code implementations, problem-solving approaches, and analysis are my own work. The AI served as a tutor to help me understand concepts, not to generate solutions. All information provided by AI was verified against official sources (IBM Quantum Learning, academic papers)
+
 ## License
 
-This project is submitted as part of academic coursework for Atlantic Technological University.
+This project is submitted as part of academic coursework for Atlantic Technological University. Please do not copy or reuse for academic submissions.
