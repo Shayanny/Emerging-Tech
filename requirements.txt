@@ -12,6 +12,3 @@ numpy>=1.26.0
 # Jupyter notebook support
 jupyter>=1.0.0
 notebook>=7.0.0
-
-# Optional: for better circuit visualization
-pillow>=10.0.0
