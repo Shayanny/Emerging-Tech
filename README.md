@@ -58,9 +58,13 @@ jupyter notebook problems.ipynb
 - [IBM Quantum Learning - Deutsch-Jozsa Algorithm](https://learning.quantum.ibm.com/course/fundamentals-of-quantum-algorithms/quantum-query-algorithms#the-deutsch-jozsa-algorithm)
 - [IBM Quantum Learning - Phase Kickback](https://learning.quantum.ibm.com/course/fundamentals-of-quantum-algorithms/phase-kickback-and-eigenvalues)
 
+
 ### Academic Literature
 - Montanaro, A. (2016). "Quantum algorithms: an overview." *npj Quantum Information*, 2(1), 15023. [DOI](https://doi.org/10.1038/npjqi.2015.23)
 - Deutsch, D., & Jozsa, R. (1992). "Rapid solution of problems by quantum computation." *Proceedings of the Royal Society A*, 439(1907), 553-558.
+- Nielsen, M. A., & Chuang, I. L. (2010). "Quantum Computation and Quantum Information." 
+  Cambridge University Press. Chapter 1.4.4 discusses the Deutsch-Jozsa algorithm as a 
+  foundational example of quantum computational advantage.
 
 ## License
 
